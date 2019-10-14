@@ -1,0 +1,147 @@
+    1  git --version
+    2  git config --list
+    3  git config --global user.name "vanish"
+    4  git config --global user.email "739461500@qq.com"
+    5  git config --global --list
+    6  pwd
+    7  cd Desktop/
+    8  ll
+    9  git init git_project
+   10  ll -al
+   11  cd git_project/
+   12  ll
+   13  ls -al
+   14  git config --global --list
+   15  touch readme.txt
+   16  ls
+   17  git commit -m'add readme'
+   18  git add readme.txt
+   19  git status
+   20  git commit -m'add readme'
+   21  git status
+   22  ls -al
+   23  git log
+   24  pwd
+   25  ll
+   26  git status
+   27  mkdir test
+   28  git status
+   29  ls -al
+   30  git add test -m'add test floder'
+   31  git add test
+   32  git status
+   33  ls -al
+   34  cd test/
+   35  ll
+   36  touch test.txt
+   37  cd ..
+   38  ll
+   39  git add test
+   40  git status
+   41  git commit test -m'add test floder'
+   42  git log
+   43  git status
+   44  clear
+   45  touch 1.txt
+   46  touch 2.txt
+   47  git status
+   48  git add -u
+   49  git status
+   50  git add -u
+   51  git status
+   52  git add 1.txt
+   53  git status
+   54  git add
+   55  git add -u
+   56  git status
+   57  git add 2.txt
+   58  git status 
+   59  git commit -m'add two folder'
+   60  git log
+   61  ls -al
+   62  vi 1.txt 
+   63  git status
+   64  git commit -m'update'
+   65  git add 1.txt 
+   66  git status
+   67  git commit -m'update'
+   68  git log
+   69  ll
+   70  git add 2.md
+   71  touch 2.md
+   72  ls
+   73  git add 2.md
+   74  git status
+   75  git rm 2.txt
+   76  git status
+   77  git reset --hard
+   78  git status
+   79  ls -l
+   80  git mv 2.txt 2.md
+   81  git status
+   82  git commit -m'rename 2.txt -> 2.md'
+   83  git log
+   84  ls -l
+   85  git log -oneline
+   86  git log --oneline
+   87  git log -n2 --oneline
+   88  git branch -v
+   89  git log
+   90  git chechout -b tmp 4d4e8547491ebbf10c013
+   91  ls -l
+   92  git branch -v
+   93  git checkout -b tmp 4d4e8547491ebbf10c013
+   94  git branch -v
+   95  ls -l
+   96  ls -al
+   97  pwd
+   98  git log -all
+   99  git log --all
+  100  git log --all --graph
+  101  git stats
+  102  git status
+  103  git checkout master
+  104  ls -al
+  105  gik
+  106  gitk
+  107  exit
+  108  cd Desktop/git_project/
+  109  pwd
+  110  ll
+  111  git remote -v
+  112  git remote add zhineng /c/Users/outianqi/Desktop/backup/zhineng.git
+  113  git remote add zhineng file:///c/Users/outianqi/Desktop/backup/zhineng.git
+  114  git log
+  115  git branch -d temp 4d4e854749
+  116  git checkout -b temp 4d4e854749
+  117  git branch
+  118  git push --set-upstream zhineng temp
+  119  ls -al /.ssh
+  120  ls -al ~/.ssh
+  121  ls -al ~/.ssh
+  122  ssh-keygen -t rsa -b 4096 -C "739461500@qq.com"
+  123  pwd
+  124  ls -al
+  125  cd /c/Users/outianqi/
+  126  ls -al
+  127  find -f id_rsa
+  128  pwd
+  129  find -name id_rsa
+  130  cat id_rsa.pub
+  131  find -name id_rsa.pub
+  132  cd .ssh/
+  133  ls
+  134  cat id_rsa.pub 
+  135  git remote -v
+  136  pwd
+  137  cd ..
+  138  cd Desktop/
+  139  cd git_project/
+  140  git remote -v
+  141  ssh -T git@github.com
+  142  ssh-keygen -t rsa -b 4096 -C "tianqiOu"
+  143  ssh-keygen -t rsa -b 4096 -C "tianqiOu"
+  144  cat /c/Users/outianqi/.ssh/id_rsa.pub
+  145  pwd
+  146  ls
+  147  history > history2.txt
